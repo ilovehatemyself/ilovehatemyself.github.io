@@ -109,6 +109,47 @@
             margin-top: 50px;
         }
     }
+@media screen and (max-width: 600px) {
+        .service__block img {
+        margin-top: -300px;
+        animation: service__block_img 8s 1;
+    }
+    @keyframes service__block_img {
+        0% {
+            opacity: 0;
+            margin-top: 100px;
+        }
+        10% {
+            opacity: 0;
+            color: #414141;
+        }
+        20% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 0;
+        }
+        90% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+            margin-top: 100px;
+        }
+    }
+}
     .loading__complete {
         text-align: center;
     }
