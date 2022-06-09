@@ -98,6 +98,38 @@ body {
     transition: 1s opacity;
     opacity: 0;
 }
+.network__display__block p {
+    color: rgb(179, 37, 37);
+    opacity: 1;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 400px auto;
+    animation: network__display_show 10s 1;
+}
+@keyframes network__display_show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .loaded .preloader {
     transition: 0.2s display;
     display: none;
