@@ -99,13 +99,13 @@ body {
     opacity: 0;
 }
 .network__display__block p {
-    color: rgb(179, 37, 37);
+    color: #b32525;
     opacity: 1;
     width: 400px;
     font-size: 20px;
     text-align: center;
     margin: 400px auto;
-    animation: network__display_show 5s 1;
+    animation: network__display_show 10s 1;
 }
 @keyframes network__display_show {
     0% {
