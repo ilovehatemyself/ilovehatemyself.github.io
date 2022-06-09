@@ -105,7 +105,7 @@ body {
     font-size: 20px;
     text-align: center;
     margin: 400px auto;
-    animation: network__display_show 10s 1;
+    animation: network__display_show 5s 1;
 }
 @keyframes network__display_show {
     0% {
