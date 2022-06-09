@@ -106,7 +106,7 @@ body {
     text-align: center;
     margin: 400px auto;
     font-family: Fifaks10Dev1;
-    animation: network__display_show 10s 1;
+    animation: network__display_show 15s 1;
 }
 @keyframes network__display_show {
     0% {
