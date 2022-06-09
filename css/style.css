@@ -98,13 +98,14 @@ body {
     transition: 1s opacity;
     opacity: 0;
 }
-.network__display__block {
+.network__display__block p {
     color: #b32525;
     opacity: 1;
     width: 400px;
     font-size: 20px;
     text-align: center;
     margin: 400px auto;
+    font-family: Fifaks10Dev1;
     animation: network__display_show 10s 1;
 }
 @keyframes network__display_show {
