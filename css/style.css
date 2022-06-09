@@ -6,7 +6,7 @@
     -moz-user-select: none;      
     -ms-user-select: none;      
     user-select: none;
-    font-family: Fifaks10Dev1;
+    font-family: Fifaks;
     color: white;
 }
 ::-webkit-scrollbar-track {
@@ -26,8 +26,8 @@
     width: 10px;
 }
 @font-face {
-    font-family: Fifaks10Dev1;
-    src: url("/fonts/Fifaks10Dev1.ttf");
+    font-family: Fifaks;
+    src: url("fonts/Fifaks10Dev1.ttf");
 }
 body {
       background-color: #000000;
@@ -100,6 +100,7 @@ body {
 }
 .network__display__block p {
     color: #b32525;
+    font-family: Fifaks;
     opacity: 1;
     width: 400px;
     font-size: 20px;
